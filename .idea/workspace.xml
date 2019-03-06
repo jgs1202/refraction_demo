@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c50ba0e9-6b75-48c2-9833-67c99e0a4e30" name="Default Changelist" comment="" />
+    <list default="true" id="c50ba0e9-6b75-48c2-9833-67c99e0a4e30" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="229" column="60" lean-forward="true" selection-start-line="229" selection-start-column="60" selection-end-line="229" selection-end-column="60" />
+            <state relative-caret-position="369">
+              <caret line="238" column="12" selection-start-line="238" selection-start-column="12" selection-end-line="238" selection-end-column="12" />
               <folding>
                 <element signature="e#850#868#0" expanded="true" />
                 <element signature="e#1198#1311#0" expanded="true" />
@@ -69,6 +71,9 @@
       <replace>slope</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -83,6 +88,7 @@
     <option name="width" value="1398" />
     <option name="height" value="857" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -136,12 +142,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551820601133</updated>
-      <workItem from="1551820602723" duration="24647000" />
+      <workItem from="1551820602723" duration="24715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24647000" />
+    <option name="totallyTimeSpent" value="24715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="282" y="193" width="1398" height="857" extended-state="0" />
@@ -193,8 +199,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="229" column="60" lean-forward="true" selection-start-line="229" selection-start-column="60" selection-end-line="229" selection-end-column="60" />
+        <state relative-caret-position="369">
+          <caret line="238" column="12" selection-start-line="238" selection-start-column="12" selection-end-line="238" selection-end-column="12" />
           <folding>
             <element signature="e#850#868#0" expanded="true" />
             <element signature="e#1198#1311#0" expanded="true" />

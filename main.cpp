@@ -236,7 +236,7 @@ void calcLightSource(object *field, light light[], unsigned int direction, Vec3f
     }
 }
 
-//[comment]
+//[comment] 
 // This variable controls the maximum recursion depth
 //[/comment]
 #define MAX_RAY_DEPTH 5
