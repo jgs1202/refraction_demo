@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Aoyama/CLionProjects/refraction/main.cpp
+cstdlib
+-
+cstdio
+-
+cmath
+-
+fstream
+-
+vector
+-
+iostream
+-
+cassert
+-
+cfenv
+-
+stdlib.h
+-
+math.h
+-
+fenv.h
+-
+GLUT/glut.h
+-
+openGL/gl.h
+-
+openGL/glu.h
+-
+
