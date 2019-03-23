@@ -13,9 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c50ba0e9-6b75-48c2-9833-67c99e0a4e30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/refraction.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/refraction" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/refraction.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/refraction.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/refraction" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/refraction" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -28,24 +28,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="132">
+              <caret line="105" column="21" lean-forward="true" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+              <folding>
+                <element signature="e#850#868#0" expanded="true" />
+                <element signature="e#1198#1311#0" expanded="true" />
+                <marker date="1553354184877" expanded="true" signature="35984:36042" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="388" column="11" lean-forward="true" selection-start-line="388" selection-start-column="11" selection-end-line="388" selection-end-column="11" />
-              <folding>
-                <element signature="e#850#868#0" expanded="true" />
-                <element signature="e#1198#1311#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -54,36 +55,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>inSphere</find>
-      <find>calcLi</find>
-      <find>?</find>
-      <find>case</find>
-      <find>switch</find>
-      <find>abs</find>
-      <find>std::abs</find>
-      <find>intensity</find>
-      <find>floor</find>
-      <find>transpare</find>
-      <find>.direction</find>
-      <find>light</find>
-      <find>render</find>
-      <find>insphere</find>
-      <find>&amp;</find>
-      <find>medium</find>
-      <find>case 1</find>
-      <find>normalize</find>
-      <find>normali</find>
-      <find>case 2</find>
-      <find>(</find>
-      <find>= (</find>
-      <find>angle</find>
-      <find>distan</find>
-      <find>ceil</find>
-      <find>inplain</find>
-      <find>cout</find>
       <find>(int)</find>
       <find>direction</find>
       <find>Direction</find>
+      <find>calclight</find>
+      <find>:</find>
+      <find>?</find>
+      <find>calcli</find>
+      <find>vecnor</find>
+      <find>trace</find>
+      <find>light</find>
+      <find>(1)</find>
+      <find>bilinear[</find>
+      <find>cstdio</find>
+      <find>if (c</find>
+      <find>checkInteger</find>
+      <find>checkMinus</find>
+      <find>grad</find>
+      <find>opacity</find>
+      <find>insphere</find>
+      <find>fromLightSource</find>
+      <find>intensity</find>
+      <find>inRec</find>
+      <find>vecnormali</find>
+      <find>cout</find>
+      <find>inplain</find>
+      <find>inrec</find>
+      <find>angle</find>
+      <find>current</find>
+      <find>&gt;= WIDTH</find>
+      <find>smooth</find>
     </findStrings>
     <replaceStrings>
       <replace>WIDTH</replace>
@@ -94,6 +95,9 @@
       <replace>i</replace>
       <replace>std::floor</replace>
       <replace>maxDir</replace>
+      <replace>field</replace>
+      <replace>normalize</replace>
+      <replace>integer</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -108,9 +112,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="78" />
-    <option name="width" value="952" />
-    <option name="height" value="972" />
+    <option name="x" value="1156" />
+    <option name="y" value="-1027" />
+    <option name="width" value="1065" />
+    <option name="height" value="856" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -118,7 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,6 +134,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,29 +174,33 @@
       <updated>1551820601133</updated>
       <workItem from="1551820602723" duration="67426000" />
       <workItem from="1552568236094" duration="307000" />
-      <workItem from="1552568821838" duration="18416000" />
+      <workItem from="1552568821838" duration="56546000" />
+      <workItem from="1552974601653" duration="1785000" />
+      <workItem from="1553012129031" duration="15840000" />
+      <workItem from="1553040690277" duration="2499000" />
+      <workItem from="1553284631478" duration="5512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86149000" />
+    <option name="totallyTimeSpent" value="149915000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="78" width="952" height="972" extended-state="0" />
+    <frame x="1156" y="-1027" width="1065" height="856" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17142858" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16226783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26818183" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26439792" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.33409092" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.33115184" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -208,18 +217,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="388" column="11" lean-forward="true" selection-start-line="388" selection-start-column="11" selection-end-line="388" selection-end-column="11" />
+        <state relative-caret-position="132">
+          <caret line="105" column="21" lean-forward="true" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
           <folding>
             <element signature="e#850#868#0" expanded="true" />
             <element signature="e#1198#1311#0" expanded="true" />
+            <marker date="1553354184877" expanded="true" signature="35984:36042" ph="..." />
           </folding>
         </state>
       </provider>
